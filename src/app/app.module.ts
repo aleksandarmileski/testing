@@ -6,11 +6,13 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {BannerComponent} from './banner-inline/banner-inline.component';
 import {UserService} from "./user.service";
+import { TwainComponent } from './shared/twain/twain.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BannerComponent
+    BannerComponent,
+    TwainComponent
   ],
   imports: [
     BrowserModule,
