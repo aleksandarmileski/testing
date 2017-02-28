@@ -1,2 +1,11 @@
-<h3 class="welcome"><i>{{welcome}}</i></h3>
+<app-banner-inline></app-banner-inline>
+<app-welcome></app-welcome>
 <!--<app-banner-inline></app-banner-inline>-->
+
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/about">About</a>
+</nav>
+
+<router-outlet></router-outlet>

@@ -39,7 +39,7 @@ describe('TwainComponent', () => {
     el = de.nativeElement;
   });
 
-  it('should create', () => {
+  it('should create component', () => {
     expect(component).toBeTruthy();
   });
 
